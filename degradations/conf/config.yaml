@@ -1,0 +1,3 @@
+defaults:
+  - paths: advanced
+  - analysis: advanced

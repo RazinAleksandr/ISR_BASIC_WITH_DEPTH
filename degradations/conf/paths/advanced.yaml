@@ -1,0 +1,5 @@
+image_path_to_analyse: "/home/arazin/main/work/huawei_cv/ISR_Basic_With_Depth/datasets/testsets/HRWSI/HR_mod2"
+depths_path_to_analyse: "/home/arazin/main/work/huawei_cv/ISR_Basic_With_Depth/datasets/testsets/HRWSI/HR_mod2_depths"
+
+log_images_path: "/home/arazin/main/work/huawei_cv/ISR_Basic_With_Depth/datasets/testsets/HRWSI/X2"
+log_depths_path: "/home/arazin/main/work/huawei_cv/ISR_Basic_With_Depth/datasets/testsets/HRWSI/X2_depths"
