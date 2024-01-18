@@ -159,11 +159,11 @@ class SRModel(BaseModel):
         if hasattr(self, 'net_g_ema'):
             self.net_g_ema.eval()
             with torch.no_grad():
-                self.output = self.net_g_ema(self.lq)
+                self.output = self.net_g_ema((self.lq, self.depth))
         else:
             self.net_g.eval()
             with torch.no_grad():
-                self.output = self.net_g(self.lq)
+                self.output = self.net_g((self.lq, self.depth))
             self.net_g.train()
 
     def dist_validation(self, dataloader, current_iter, tb_logger, save_img):
